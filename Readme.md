@@ -120,21 +120,21 @@ The next step in this process, is to configure Front Door hosts, backend pools a
 
 ### Configure Host
 For this guide, only a hostname will be configured. In production scenarios, also consider caching and web application firewall requirements. 
-![Define a Front Door URI / Hostname](./content/AFD.Samples.AddHost.jpg)
+![Define a Front Door URI / Hostname](./content/AFD.Samples.AddHost.JPG)
 
 ### Configure Backend Pools
 Create a backend pool, and configure appropriate health probing / failover timings. For this guide, the default values are appropriate.
-![Create a backend pool and health probes](./content/AFD.Samples.AddBackendPool2.jpg)
+![Create a backend pool and health probes](./content/AFD.Samples.AddBackendPool2.JPG)
 
 Add a backend, by configuring the Function App as the backend pool. 
 
 This can be done conveniently as an App Service, or manually:  
-![Create a backend](./content/AFD.Samples.AddBackendPool.jpg)
+![Create a backend](./content/AFD.Samples.AddBackendPool.JPG)
 
 ### Configure Routing Rules
 As a final step, configure routing. The required routing is fairly straightforward as the Function App needs to forward all requests to the web application: 
 
-![Create a backend](./content/AFD.Samples.AddBackendPool.jpg)
+![Create a backend](./content/AFD.Samples.AddRouting.jpg)
 
 ## Alternative solutions
 In this how-to, Azure Functions are used to perform the required modification. There are alternative options available, such as API management or a custom IIS module. 
