@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "FUNCTION_BASE_URI": "hevandu4.azurefd.net",
+    "TARGET_URI": "u4afdproxy.azurewebsites.net"
+  }
+}
