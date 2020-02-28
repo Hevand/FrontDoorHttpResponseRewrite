@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
@@ -7,16 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFD.Samples.HttpResponseRew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFD.Samples.HttpResponseRewrite.IISModule", "AFD.Samples.HttpResponseRewrite.IISModule\AFD.Samples.HttpResponseRewrite.IISModule.csproj", "{FB108C25-64B8-49C2-A112-C5D0FE1ECF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFD.Samples.WebApplication", "AFD.Samples.WebApplication\AFD.Samples.WebApplication.csproj", "{A6CC614A-9B2F-45D4-A114-EFB788D98A21}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{EDF887D1-C9F1-4510-93CA-16EF71D73FBD}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{354096E1-F2B2-46FC-BB9E-E1D91A8D7585}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xtra", "xtra", "{8362D98C-4D57-4C84-94B8-520EE6B5249F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{11CDC3EC-88F3-420D-B72F-09850AF0402D}"
 	ProjectSection(SolutionItems) = preProject
@@ -37,10 +33,6 @@ Global
 		{FB108C25-64B8-49C2-A112-C5D0FE1ECF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB108C25-64B8-49C2-A112-C5D0FE1ECF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB108C25-64B8-49C2-A112-C5D0FE1ECF5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6CC614A-9B2F-45D4-A114-EFB788D98A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6CC614A-9B2F-45D4-A114-EFB788D98A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6CC614A-9B2F-45D4-A114-EFB788D98A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6CC614A-9B2F-45D4-A114-EFB788D98A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,7 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{67CB53F5-690D-4278-B254-3C9A5116E1AF} = {354096E1-F2B2-46FC-BB9E-E1D91A8D7585}
 		{FB108C25-64B8-49C2-A112-C5D0FE1ECF5D} = {354096E1-F2B2-46FC-BB9E-E1D91A8D7585}
-		{A6CC614A-9B2F-45D4-A114-EFB788D98A21} = {8362D98C-4D57-4C84-94B8-520EE6B5249F}
 		{11CDC3EC-88F3-420D-B72F-09850AF0402D} = {EDF887D1-C9F1-4510-93CA-16EF71D73FBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
